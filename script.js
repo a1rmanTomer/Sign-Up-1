@@ -1,6 +1,6 @@
 function clickPrompt(){
     const t1 = document.getElementById(t1);
     document.getElementById(t1).onclick = function () {
-        prompt("Nice!");
+        prompt("Tested.");
     };
 }
