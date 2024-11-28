@@ -1,0 +1,25 @@
+.mainHeader {
+    text-align: center;
+    margin-top: -1.5em;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.t1 {
+    font-size: 2.5em;
+    color: blue;
+    text-align: left;
+}
+
+.t2 {
+    font-size: 2.5em;
+    color: red;
+    text-align: middle;
+}
+
+.t3 {
+    font-size: 2.5em;
+    color: green;
+    text-align: right;
+}
