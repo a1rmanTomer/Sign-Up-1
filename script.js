@@ -1,6 +1,5 @@
-function clickPrompt(){
-    const t1 = document.getElementById(t1);
-    document.getElementById(t1).onclick = function () {
-        prompt("Tested.");
-    };
-}
+const t1Element = document.querySelector('.t1');
+
+t1Element.addEventListener('click', () =>{
+    alert("Clicked!")
+});
